@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Theta</title>
+	<link rel="stylesheet" href="./src/mdb.css">
+	<link rel="stylesheet" href="./src/theta.css">
+    <script src="./src/jquery.js"></script>
+	<script src="./src/jqueryconnections.js"></script>
+</head>
+<body class="dark-edition">
+  <nav class="">
+  	  <a class="logo">&Theta;</a>
+  	  <button class="btn float-right btn-info btn-sm mt-j mr-2 btn-round">Reset</button>
+  </nav>
+  <div class="divider"></div>
+		<div class="row mx-2">
+
+			 <!-- input data -->
+			 <div class="col-md-3">
+			 	 <p class="text-muted small mt-3 py-1 px-2 bordered"> <button class="btn btn-info btn-sm">INPUT DATA</button> </p>
+			 	 <small class="text-muted">Input data graph</small>
+			 	 <div class="container bordered round p-2 round" id="dinput">
+			 	 	 <button class="btn btn-sm btn-info px-2 m-0"></button>
+			 	 </div>
+			 </div>
+
+
+            <!-- nueral model -->
+			  <div class="col-md-6">
+			 	  <p class="text-muted small mt-3 py-1 px-2 bordered"> <button class="btn btn-info btn-sm">Neural Model</button></p>
+                 <div class="p-2" id="nn">
+			 	  <div class="row ml-4">
+			 	  	   <div class="col-md-4">
+                          <span class="btn btn-sm btn-warning btn-round">INPUT LAYER</span>
+                          <hr>
+			 	  	   	  <div class="neuron n-input"></div><br><br>
+			 	  	   	  <div class="neuron n-input"></div><br><br>
+			 	  	   	  <div class="neuron n-input"></div><br><br>
+			 	  	   	  <div class="neuron n-input"></div><br><br>
+			 	  	   	
+			 	  	   	
+			 	  	   </div>
+			 	  	   <div class="col-md-4">
+			 	  	   	  <span class="btn btn-sm btn-primary btn-round">HIDDEN LAYER</span>
+			 	  	   	  <hr>
+			 	  	   	  <div class="neuron hlayer"></div><br>
+			 	  	   	  <div class="neuron hlayer"></div><br>
+			 	  	   	  <div class="neuron hlayer"></div><br>
+			 	  	   	  <div class="neuron hlayer"></div><br>
+			 	  	   	  <div class="neuron hlayer"></div><br>
+			 	  	   	  <div class="neuron hlayer"></div><br>
+			 	  	   	
+			 	  	   </div>
+
+			 	  	   <div class="col-md-4">
+			 	  	   	  <span class="btn btn-sm btn-success btn-round">OUTPUT LAYER</span>
+			 	  	   	  <hr>
+			 	  	   	  <div class="neuron outputs"></div><br>
+			 	  	   	  <div class="neuron outputs"></div><br>
+
+			 	  	   </div>
+			 	  </div>
+			 	</div>
+			 </div>
+
+             <!-- output data -->
+			  <div class="col-md-3">
+			 	   <p class="text-muted small mt-3 py-1 px-2 bordered"> <button class="btn btn-info btn-sm">OUTPUT DATA</button></p>
+			 	    <small class="text-muted">Output Data Graph:</small>
+			 	 <div class="container bordered round p-2 round" id="oinput">
+			 	 	 <button class="btn btn-sm btn-info px-2 m-0"></button>
+			 	 	 <button class="btn btn-sm btn-info px-2 m-0"></button>
+			 	 	 <button class="btn btn-sm btn-info px-2 m-0"></button>
+			 	 	 <button class="btn btn-sm btn-info px-2 m-0"></button>
+			 	 	 <button class="btn btn-sm btn-info px-2 m-0"></button>
+			 	 	 <button class="btn btn-sm btn-info px-2 m-0"></button> 
+			 	 </div>
+			 </div>
+			 </div>
+		</div>
+</body>
+<script src="./src/theta.js"></script>
+</html>
