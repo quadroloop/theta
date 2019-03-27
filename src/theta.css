@@ -35,7 +35,7 @@ background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, F
 
 }
 
-connection {
+.connection {
     z-index: -1;
     border: 3px solid;
     border-radius: 57em;

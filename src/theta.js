@@ -5,3 +5,7 @@
     $('.outputs').connections({to: '#oinput'});
 
   });
+
+ function sclass(xclass){
+ 	return document.getElementsByClassName(xclass);
+ }
