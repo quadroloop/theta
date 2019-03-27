@@ -1,7 +1,7 @@
 .logo{
 	 font: 3em "Georgia", "Apple Symbols", serif; line-height: 1.1;
 	 margin-left: 10px;
-	   background: linear-gradient(rgba(16, 207, 156, 0.7),rgba(80, 15, 178, 0.5)), url("spark.gif") top center;
+	   background: linear-gradient(rgba(142, 250, 225, 0.95),rgba(80, 15, 178, 0.5)), url("spark.gif") top center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
 }
@@ -9,9 +9,7 @@
 .divider{
 	padding: 1.5px;
 	box-shadow: 0px 2px 8px 0.3px rgba(102,242,235,1);
-background: #4568DC;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #5f2c82, #49a09d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -44,3 +42,7 @@ connection {
     color:  rgba(33, 127, 221, 0.76);
   }
 
+.nav-dark{
+
+background-color: #320C78;
+}
